@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { AppCartComponent } from './components/app-cart/app-cart.component';
 import { CartContainerComponent } from './components/cart-container/cart-container.component';
 import { TasksComponent } from './components/tasks/tasks.component';
+import { TaskItemComponent } from './components/task-item/task-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AppCartComponent,
     CartContainerComponent,
-    TasksComponent
+    TasksComponent,
+    TaskItemComponent
   ],
   imports: [
     BrowserModule,

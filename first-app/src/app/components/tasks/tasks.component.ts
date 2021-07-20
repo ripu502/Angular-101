@@ -18,6 +18,6 @@ export class TasksComponent implements OnInit {
   }
 
   onGetData() {
-    console.log(this.mockData);
+    console.log(this.mockData[0].title);
   }
 }
