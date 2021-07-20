@@ -1,5 +1,4 @@
 <div class="container m-2 d-sm-flex">
-    <app-app-cart title="'Hello'" ></app-app-cart>
-    <app-app-cart></app-app-cart>
+    <app-app-cart title="{{title}}" (titleChanger)="changeTitle($event)"></app-app-cart>
   </div>
   
