@@ -1,3 +1,3 @@
 <button (click)="onGetData()" class="btn btn-primary m-2">GetAPI-DATA</button>
-<app-task-item *ngFor="let mock of mockData" title="{{mock.title}}" userId="{{mock.userId}}"
+<app-task-item *ngFor="let mock of mockData  | slice:0:2;" title="{{mock.title}}" userId="{{mock.userId}}"
     completed="{{mock.completed}}"></app-task-item>
