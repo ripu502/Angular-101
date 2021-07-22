@@ -9,6 +9,8 @@ import { TasksComponent } from './components/tasks/tasks.component';
 import { TaskItemComponent } from './components/task-item/task-item.component';
 import { TwoBindComponent } from './components/two-bind/two-bind.component';
 import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
+import { NameEditorComponent } from './components/name-editor/name-editor.component';
 
 @NgModule({
   declarations: [
@@ -17,13 +19,15 @@ import { FormsModule } from '@angular/forms';
     CartContainerComponent,
     TasksComponent,
     TaskItemComponent,
-    TwoBindComponent
+    TwoBindComponent,
+    NameEditorComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
