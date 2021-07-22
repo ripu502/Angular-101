@@ -29,3 +29,11 @@ use the following link
 2. [link](https://codecraft.tv/courses/angular/advanced-topics/basic-custom-validators/)
 3. Refer the google
 
+# basic routing is already done
+1. For more details on the routing 
+2. refer the [link](https://angular.io/guide/router)
+3. also check for the lazy loading.
+
+### Interceptors and the subject are left check the docs or will implement that in future...
+
+
